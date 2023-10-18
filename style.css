@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    background-color: #E9E9E9;
+    color: #333333;
+
+    height: 70.7rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    max-height: 100vh;
+}
+
+button {
+    margin: 1.6rem;
+    padding: 2.0rem;
+
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+
+    cursor: pointer;
+}
+
+#login {
+    background-color: #FFFFFF;
+
+    margin: 0 0 0 15.0rem;
+    padding: 15.0rem;
+    border-radius: 0.2rem 0 0 0.2rem;
+
+}
+
+.welcome {
+    margin-bottom: 3.2rem;
+}
+
+.welcome h1 {
+    margin: -4.2rem 0 2.2rem 4.8rem;
+
+    font-size: 6.2rem;
+    font-weight: bold;
+}
+
+.welcome h2 {
+    margin: 1.6rem;
+
+    font-weight: bold;
+}
+
+.welcome p {
+    margin-left: 1.6rem;
+
+    font-size: 1.6rem;
+}
+
+.input-wrapper {
+    padding: 0.8rem;
+    display: block;
+    border-bottom: 1px solid #333333;
+    width: 100%;
+
+    margin: 3.2rem 0 3.2rem 1.6rem;
+}
+
+#assumtek-email {
+    border: none;
+    outline: none;
+
+    font-size: 2.0rem;
+}
+
+#assumtek-password {
+    border: none;
+    outline: none;
+
+    font-size: 2.0rem;
+}
+
+.checkbox-wrapper {
+    margin: -2.4rem 2rem 1rem 1.6rem;
+
+}
+
+#mantain-connected {
+    font-weight: 700;
+    width: 2.4rem;
+    height: 1.6rem;
+}
+
+.forget-password {
+    display: block;
+
+    margin-left: 1.6rem;
+}
+
+.forget-password a {
+    text-decoration: none;
+    color: #929292;
+}
+
+.log-in-button {
+    display: grid;
+}
+
+.log-in {
+    background-color: #000000;
+    color: white;
+}
+
+.log-in:hover {
+    background-color: #282828;
+}
+
+.log-in-microsoft {
+    color: #777777;
+    background-color: #E9E9E9;
+}
